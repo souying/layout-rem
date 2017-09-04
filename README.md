@@ -2,7 +2,7 @@
 移动端页面满屏自适应方案（采用rem作为单位，设计稿为750 * 1334 或者设计稿为640 * 1334）
 > [博客地址](http://www.jiaoyiba.cc)
 
-[![NPM](https://nodei.co/npm/gulp-imageisux.png)](https://www.npmjs.com/package/layout-rem/)
+[![NPM](https://nodei.co/npm/layout-rem.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/layout-rem/)
 * 此方案删除了dpr，保留rem
 * 满屏自适应，要求设计稿为750 * 1334
 * 单位换算为1rem = 100px
