@@ -1,0 +1,207 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'layout-rem' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData layout-rem
+8 silly fetchNamedPackageData layout-rem
+9 silly mapToRegistry name layout-rem
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'layout-rem',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'layout-rem',
+12 silly mapToRegistry   name: 'layout-rem',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/layout-rem
+14 verbose request uri https://registry.npmjs.org/layout-rem
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 14:45:03
+17 verbose request using bearer token for auth
+18 verbose request id cc15a460b5ef974e
+19 verbose etag W/"59acefe4-115d"
+20 verbose lastModified Mon, 04 Sep 2017 06:17:08 GMT
+21 http request GET https://registry.npmjs.org/layout-rem
+22 http 304 https://registry.npmjs.org/layout-rem
+23 verbose headers { server: 'nginx/1.10.1',
+23 verbose headers   'last-modified': 'Mon, 04 Sep 2017 06:17:08 GMT',
+23 verbose headers   etag: '"59acefe4-115d"',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Mon, 04 Sep 2017 06:41:06 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-nrt6124-NRT',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1504507266.879403,VS0,VE132',
+23 verbose headers   vary: 'Accept-Encoding, Accept' }
+24 silly get cb [ 304,
+24 silly get   { server: 'nginx/1.10.1',
+24 silly get     'last-modified': 'Mon, 04 Sep 2017 06:17:08 GMT',
+24 silly get     etag: '"59acefe4-115d"',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Mon, 04 Sep 2017 06:41:06 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-nrt6124-NRT',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1504507266.879403,VS0,VE132',
+24 silly get     vary: 'Accept-Encoding, Accept' } ]
+25 verbose etag https://registry.npmjs.org/layout-rem from cache
+26 verbose get saving layout-rem to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\layout-rem\.cache.json
+27 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule layout-rem@1.0.2 checking installable status
+41 silly cache add args [ 'layout-rem', null ]
+42 verbose cache add spec layout-rem
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'layout-rem',
+43 silly cache add   scope: null,
+43 silly cache add   escapedName: 'layout-rem',
+43 silly cache add   name: 'layout-rem',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed layout-rem@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for layout-rem
+46 info addNameTag [ 'layout-rem', 'latest' ]
+47 silly mapToRegistry name layout-rem
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'layout-rem',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'layout-rem',
+50 silly mapToRegistry   name: 'layout-rem',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/layout-rem
+52 verbose addNameTag registry:https://registry.npmjs.org/layout-rem not in flight; fetching
+53 verbose get https://registry.npmjs.org/layout-rem not expired, no request
+54 silly addNameTag next cb for layout-rem with tag latest
+55 silly addNamed layout-rem@1.0.2
+56 verbose addNamed "1.0.2" is a plain semver version for layout-rem
+57 silly cache afterAdd layout-rem@1.0.2
+58 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\layout-rem\1.0.2\package\package.json not in flight; writing
+59 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+60 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\layout-rem\1.0.2\package\package.json written
+61 silly loadAllDepsIntoIdealTree Finishing
+62 silly loadIdealTree Finishing
+63 silly currentTree layout-rem
+64 silly idealTree layout-rem
+64 silly idealTree `-- layout-rem@1.0.2
+65 silly generateActionsToTake Starting
+66 silly install generateActionsToTake
+67 silly generateActionsToTake Finishing
+68 silly diffTrees action count 1
+69 silly diffTrees add layout-rem@1.0.2
+70 silly decomposeActions action count 8
+71 silly decomposeActions fetch layout-rem@1.0.2
+72 silly decomposeActions extract layout-rem@1.0.2
+73 silly decomposeActions test layout-rem@1.0.2
+74 silly decomposeActions preinstall layout-rem@1.0.2
+75 silly decomposeActions build layout-rem@1.0.2
+76 silly decomposeActions install layout-rem@1.0.2
+77 silly decomposeActions postinstall layout-rem@1.0.2
+78 silly decomposeActions finalize layout-rem@1.0.2
+79 silly runTopLevelLifecycles Starting
+80 silly executeActions Starting
+81 silly install executeActions
+82 silly doSerial global-install 0
+83 silly doParallel fetch 1
+84 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+85 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\staging-dcba72bd0c1396b5.lock for C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging
+86 silly doParallel extract 1
+87 silly extract layout-rem@1.0.2
+88 verbose unbuild node_modules\.staging\layout-rem-6e610db5
+89 silly gentlyRm C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5 is being purged from base C:\Users\Administrator\Desktop\layout-rem
+90 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5
+91 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\layout-rem\1.0.2\package.tgz
+92 verbose tar unpacking to C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5
+93 silly gentlyRm C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5 is being purged
+94 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5
+95 silly gunzTarPerm modes [ '777', '666' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gunzTarPerm extractEntry README.md
+98 silly gunzTarPerm extractEntry index.js
+99 silly gunzTarPerm extractEntry bin/rem.js
+100 silly gunzTarPerm extractEntry bin/rem.min.js
+101 silly gentlyRm C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5\node_modules is being purged
+102 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5\node_modules
+103 silly doParallel preinstall 1
+104 silly preinstall layout-rem@1.0.2 C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging\layout-rem-6e610db5
+105 info lifecycle layout-rem@1.0.2~preinstall: layout-rem@1.0.2
+106 silly lifecycle layout-rem@1.0.2~preinstall: no script for preinstall, continuing
+107 silly doReverseSerial remove 0
+108 silly doSerial move 0
+109 silly doSerial finalize 1
+110 silly finalize C:\Users\Administrator\Desktop\layout-rem\node_modules\layout-rem
+111 silly doSerial build 1
+112 silly build layout-rem@1.0.2
+113 info linkStuff layout-rem@1.0.2
+114 silly linkStuff layout-rem@1.0.2 has C:\Users\Administrator\Desktop\layout-rem\node_modules as its parent node_modules
+115 verbose linkBins layout-rem@1.0.2
+116 verbose link bins [ { 'layout-rem': 'rem.js' },
+116 verbose link bins   'C:\\Users\\Administrator\\Desktop\\layout-rem\\node_modules\\.bin',
+116 verbose link bins   false ]
+117 verbose linkMans layout-rem@1.0.2
+118 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\staging-dcba72bd0c1396b5.lock for C:\Users\Administrator\Desktop\layout-rem\node_modules\.staging
+119 silly rollbackFailedOptional Starting
+120 silly rollbackFailedOptional Finishing
+121 silly runTopLevelLifecycles Finishing
+122 silly install printInstalled
+123 warn enoent ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\layout-rem\package.json'
+124 verbose enoent ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\layout-rem\package.json'
+124 verbose enoent This is most likely not a problem with npm itself
+124 verbose enoent and is related to npm not being able to find a file.
+125 warn layout-rem No description
+126 verbose If you need help, you may report this error at:
+126 verbose     <https://github.com/npm/npm/issues>
+127 warn layout-rem No repository field.
+128 verbose If you need help, you may report this error at:
+128 verbose     <https://github.com/npm/npm/issues>
+129 warn layout-rem No README data
+130 verbose If you need help, you may report this error at:
+130 verbose     <https://github.com/npm/npm/issues>
+131 warn layout-rem No license field.
+132 verbose If you need help, you may report this error at:
+132 verbose     <https://github.com/npm/npm/issues>
+133 verbose stack Error: ENOENT: no such file or directory, chmod 'C:\Users\Administrator\Desktop\layout-rem\node_modules\layout-rem\rem.js'
+133 verbose stack     at Error (native)
+134 verbose cwd C:\Users\Administrator\Desktop\layout-rem
+135 error Windows_NT 6.1.7601
+136 error argv "E:\\Program Files\\nodejs\\node.exe" "E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "layout-rem"
+137 error node v6.10.3
+138 error npm  v3.10.10
+139 error path C:\Users\Administrator\Desktop\layout-rem\node_modules\layout-rem\rem.js
+140 error code ENOENT
+141 error errno -4058
+142 error syscall chmod
+143 error enoent ENOENT: no such file or directory, chmod 'C:\Users\Administrator\Desktop\layout-rem\node_modules\layout-rem\rem.js'
+144 error enoent ENOENT: no such file or directory, chmod 'C:\Users\Administrator\Desktop\layout-rem\node_modules\layout-rem\rem.js'
+144 error enoent This is most likely not a problem with npm itself
+144 error enoent and is related to npm not being able to find a file.
+145 verbose exit [ -4058, true ]
