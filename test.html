@@ -1,0 +1,229 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="Keywords" content="" />
+    <title id="title"></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="./js/rem.min.js"></script>
+	<script>
+		new Rem({
+			desinWidth:750, //750这个值，根据设计师的psd宽度来修改，是多少就写多少，插件默认750 
+			num:100         //100这个值，是1rem = 100px的比例 默认100比1的 可修改自己的比例 计算
+		});
+	</script>
+    <style>
+        body{
+            background:#f0f0f0;
+        }
+        a{
+            text-decoration:none;
+        }
+        .app{
+            width:7.5rem;
+            height:auto;
+            overflow:hidden;
+            margin:0 auto;
+        }
+		.top{
+			width:7.5rem;
+			height:3.5rem;
+			background:url(./img/grckbround_touxiangbeijing@2x.png);
+			background-size: contain;
+            background-repeat: no-repeat;
+            overflow:hidden;
+		}
+		.touxiang{
+			width:1.5rem;
+			height:1.5rem;
+			border-radius:50%;
+			margin:0 auto;
+			margin-top:0.64rem;
+		}
+		.touxiang>img{
+			width:1.5rem;
+			height:1.5rem;
+			border-radius:50%;
+		}
+		.name{
+			height:0.8rem;
+			margin-top:0.3rem;
+			text-align:center;
+			font-size:0.32rem;
+			color:#fefefe;
+			font-family:"仿宋";
+		}
+		.con-content{
+			width:8rem;
+			padding-left:0.2rem;
+			padding-top:0.2rem;
+			padding-bottom:0.2rem;
+			background:#fff;
+			margin-bottom:0.1rem;
+		}
+		.item{
+			display:block;
+			width:1.5rem;
+			height:2rem;
+			background:#fff;
+			float:left;
+			margin-right:0.18rem;
+		}
+		.con-content:after{
+			display:block;
+            clear:both;
+            content:"";
+            visibility:hidden;
+            height:0;      
+		}
+		.item>img{
+			width:1.5rem;
+			height:2rem;
+		}
+		.item-border{
+			display:block;
+			width:1px;
+			height:1rem;
+			background:#e6e6e6;
+			float:left;
+			margin-top:0.16rem;
+			margin-right:0.18rem;
+		}
+		.con-bottom{
+			width:7.5rem;
+			height:2.66rem;
+			background:#fff;
+		}
+		.con-bottom-item{
+			display:block;
+			width:8rem;
+		}
+		.icon1{
+			background:url(./img/icon_touxiang@2x.png);
+		}
+		.icon2{
+			background:url(./img/icon_guanyuwomen@2x.png);
+		}
+		.icon3{
+			background:url(./img/icon_kefudianhua@2x.png);
+		}
+		.icon{
+			display:block;
+			width:0.3rem;
+			height:0.3rem;
+			background-size: contain;
+            background-repeat: no-repeat;
+			float:left;
+			margin-top:0.29rem;
+			margin-right:0.2rem;
+			margin-left:0.24rem;
+		}
+		.icon-add{
+			width:6.78rem;
+			height:0.88rem;
+			line-height:0.88rem;
+			float:left;
+			color:#333;
+			font-size:0.26rem;
+			border-bottom:0.01rem solid #e6e6e6;
+
+		}
+		.icon-add>span{
+			font-size:0.22rem;
+			color:#666;
+		}
+		/*底部布局*/
+		.bottom_fixed{
+            position:fixed;
+            width:100%;
+            height:0.98rem;
+            bottom:0rem;
+            left:0rem;
+            background:#fff;
+        }
+        .bottom_btn{
+            width:25%;
+            height:100%;
+            float:left;
+        }
+        .bottom_btn>a{
+            text-decoration: none;
+            display:block;
+            margin:0 auto;
+            width:0.88rem;
+            height:0.98rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .tph{
+            background:url(./img/cion_tianpinghui.png);
+        }
+        .jwh{
+            background:url(./img/cion_juweihui.png);
+        }
+        .info{
+            background:url(./img/cion_info.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+      	<div class="top">
+			<div class="touxiang">
+				<img src="./img/touxinag@2x.png" alt="">
+			</div>
+			<div class="name"><span>天平管家</span></div>
+      	</div>
+      	<div class="con">
+			<div class="con-content">
+				<a href="" class="item">
+					<img src="./img/button_dingdan@2x.png" alt="">
+				</a>
+				<div class="item-border"></div>
+				<a href="" class="item">
+					<img src="./img/button_gouwuche@2x.png" alt="">
+				</a>
+				<div class="item-border"></div>
+				<a href="" class="item">
+					<img src="./img/button_yue@2x.png" alt="">
+				</a>
+				<div class="item-border"></div>
+				<a href="" class="item">
+					<img src="./img/button_yuyuechaxun@2x.png" alt="">
+				</a>
+			</div>
+      	</div>
+      	<div class="con-bottom">
+			<a href="#" class="con-bottom-item">
+				<span class="icon icon1"></span>
+				<div class="icon-add">我的地址</div>
+			</a>
+			<a href="#" class="con-bottom-item">
+				<span class="icon icon2"></span>
+				<div class="icon-add">关于我们</div>
+			</a>
+			<a href="#" class="con-bottom-item">
+				<span class="icon icon3"></span>
+				<div class="icon-add">
+					客服电话
+					<span>400-0700-016</span>
+				</div>
+			</a>
+      	</div>
+      	<div class="bottom_fixed">
+            <div class="bottom_btn">
+                <a class="tph" href=""></a>
+            </div>
+            <div class="bottom_btn">
+                <a class="jwh" href=""></a>
+            </div>
+            <div class="bottom_btn">
+                <a class="info" href=""></a>
+            </div>
+             <div class="bottom_btn">
+                <a class="info" href=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
